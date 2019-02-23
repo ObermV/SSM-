@@ -9,4 +9,8 @@ public class HelloGit {
         System.out.println("Hello.Github");
 
     }
+    public void test(){
+        int i =0;
+        i+=10;
+    }
 }
