@@ -23,6 +23,7 @@ public class AccountController {
     public String findAll(Model model){
         List<Account> list = iAccountService.findAll();
         System.out.println("546453435");
+        System.out.println(3289242);
         model.addAttribute("list",list);
         return "/success";
     }
