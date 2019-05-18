@@ -22,7 +22,7 @@ public class AccountController {
     @RequestMapping("findAll")
     public String findAll(Model model){
         List<Account> list = iAccountService.findAll();
-        System.out.println("48646531313548");
+        System.out.println("546453435");
         model.addAttribute("list",list);
         return "/success";
     }
